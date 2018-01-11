@@ -1,7 +1,7 @@
-import React from 'react'
-import Footer_todo from '../../components/Footer_todo'
-import AddTodo from '../../containers/AddTodo'
-import VisibleTodoList from '../../containers/VisibleTodoList'
+import React from 'react';
+import FooterTodo from '../../components/FooterTodo';
+import AddTodo from '../../containers/AddTodo';
+import VisibleTodoList from '../../containers/VisibleTodoList';
 import Layout from '../../components/Layout';
 
 const title = 'TO DO';
@@ -12,9 +12,9 @@ function action() {
     title,
     component: (
       <Layout>
-            <AddTodo />
-            <VisibleTodoList />
-            <Footer_todo />
+        <AddTodo />
+        <VisibleTodoList />
+        <FooterTodo />
       </Layout>
     ),
   };
